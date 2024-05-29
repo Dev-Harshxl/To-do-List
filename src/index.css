@@ -1,13 +1,70 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  max-width: 400px;
+  margin-left: 40px ;
+  padding: 20px;
+  text-align: center;
+}
+
+.date {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  color: purple;
+  text-align: center;
+  width: 70%;
+  padding: 8px;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.input-group button {
+  padding: 8px 16px;
+  background-color: green;
+  font-weight: 800;
+  color: Yellow;
+  
+}
+
+.filter-group {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.todo-list {
+  position: absolute;
+  top: 20px;
+  right: 450px;
+  list-style-type: none;
+  padding: 0;
+  color: darkslategrey;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-item button {
+  margin-left: 10px;
 }
